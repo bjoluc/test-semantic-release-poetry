@@ -37,3 +37,4 @@ jobs:
           pypi_repository: https://test.pypi.org/legacy/
           pypi_token: ${{ secrets.PYPI_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          changelog_file: changelog.md
